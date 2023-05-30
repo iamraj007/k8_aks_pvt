@@ -1,0 +1,8 @@
+output "helm_ingress_name" {
+  value     = helm_release.nginx_ingress.name
+}
+
+output "helm_ingress_rep" {
+  value     = helm_release.nginx_ingress.repository
+}
+
